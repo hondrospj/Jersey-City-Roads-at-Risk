@@ -1,6 +1,6 @@
 {
   "schema": "roads-at-risk-flood-stats-v2",
-  "generatedAt": "2026-08-10T23:22:15.925Z",
+  "generatedAt": "2026-08-10T23:35:31.099Z",
   "gaugeName": "Newark",
   "station": {
     "usgsGaugeId": "01392650",
