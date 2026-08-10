@@ -1,0 +1,45 @@
+{
+  "name": "Roads at Risk - Jersey City DEM",
+  "source": "USGS 3DEP Bare Earth DEM Dynamic ImageServer",
+  "sourceUrl": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer",
+  "sourceDescription": "USGS 3D Elevation Program (3DEP) Bare Earth DEM Dynamic service, retrieved for the Roads at Risk municipal rollout.",
+  "downloadedAt": "2026-08-10",
+  "processing": "Exported from USGS 3DEP at municipal extent, masked to the Jersey City boundary, adaptively resampled to 10.0 ft pixels to keep the browser-delivered raster within operational size limits, and compressed as a Cloud Optimized GeoTIFF.",
+  "horizontalCrs": "EPSG:3857",
+  "verticalUnits": "meters",
+  "displayElevationUnits": "feet",
+  "pixelSizeMeters": 3.059962297337129,
+  "pixelSizeFeet": 10.039246382299506,
+  "adaptiveResolution": true,
+  "width": 3270,
+  "height": 4895,
+  "nodata": -999999,
+  "minMeters": -3.578,
+  "maxMeters": 55.382,
+  "meanMeters": 9.861,
+  "stdDevMeters": 11.782,
+  "minFeet": -11.73884514431,
+  "maxFeet": 181.69947506489,
+  "webMercatorBounds": [
+    -8250600.764591,
+    4963351.720511535,
+    -8240594.687878707,
+    4978330.235957
+  ],
+  "leafletBounds": [
+    [
+      40.6670402,
+      -74.1164077
+    ],
+    [
+      40.7690105,
+      -74.0265481
+    ]
+  ],
+  "files": {
+    "demCog": "jersey_city_dem_5ft_cog.tif",
+    "hillshadeCog": "jersey_city_hillshade_cog.tif",
+    "hillshadePng": "jersey_city_hillshade.png",
+    "boundaryGeojson": "jersey_city_boundary.geojson"
+  }
+}
