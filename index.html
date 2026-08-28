@@ -2667,6 +2667,7 @@
         min-height:220px;
       }
     }
+
     /* RoadRisk workbench — shared Floodmapper/Dashboard design language. */
     :root{
       --right-rail:clamp(560px, 39vw, 680px);
@@ -3327,6 +3328,7 @@
         animation-iteration-count:1 !important;
       }
     }
+
     /* Pane help and guided tutorial. */
     .mapHeaderActions,
     .paneHeaderActions{
@@ -6045,10 +6047,12 @@
     }
 
     function defaultSection(){
-      // Montgomery Street corridor: west side to the Hudson waterfront.
+      // Default municipality cross-section.
       drawSection(
         L.latLng(40.72836, -74.07545),
         L.latLng(40.71647, -74.03399),
+        false,
+        null,
         false
       );
     }
